@@ -1,6 +1,8 @@
 # AspnetCore Web API
 
-### Desenvolvimento de uma Api simples com AspnetCore, Swagger e ElmahCore.
+### Desenvolvimento de uma Api simples com AspnetCore, Swagger e ElmahCore.  🛠 
 
-- projeto básico para fins de estudos da linguagem C#, OOP e soluções para desenvolvimento web.
+- Aplicação básica para fins de estudos da linguagem C#, OOP e Web Api's.  📚
+- Projeto em desenvolvimento ... ⏳ 
 
+<img src="https://i.ibb.co/HxwKWpr/postman-api-livros.jpg" />
