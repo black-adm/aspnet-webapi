@@ -1,6 +1,9 @@
+using ElmahCore.Mvc;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddElmah();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -13,9 +16,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
+app.UseElmah();
+app.UseElmahExceptionPage();
 app.MapControllers();
 
 app.Run();
